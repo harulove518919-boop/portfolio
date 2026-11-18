@@ -1,0 +1,9 @@
+# Docker Compose の設定（今の Docker Compose では、先頭の version: は不要）
+services:
+  web:
+    build: .                     # このフォルダの Dockerfile からイメージを作る
+    image: portfolio:1.0
+    container_name: portfolio
+    ports:
+      - "8080:80"                # パソコンの 8080番 → コンテナの 80番
+    restart: unless-stopped

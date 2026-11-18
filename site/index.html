@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山口泰山 ポートフォリオ｜プライムメディアプラス</title>
+  <meta name="description" content="SEO・AIOコンサルタント／Webライター 山口泰山のポートフォリオ。フロントエンド＋AI活用コースで制作した作品を掲載しています。">
+  <meta name="theme-color" content="#1e3a5f">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <!-- キーボードで操作する人が、メニューを飛ばして本文へ行けるように -->
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">山口泰山<span class="logo-sub">Portfolio</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="メインメニュー">
+        <ul>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#skills">スキル</a></li>
+          <li><a href="#projects">制作物</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ヒーロー（自己紹介） -->
+    <section id="about" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-role">SEO・AIOコンサルタント／Webライター</p>
+          <h1 id="hero-title">言葉と仕組みで、<br>Webサイトを「伝わる場所」に。</h1>
+          <p class="hero-lead">
+            山口泰山（屋号：プライムメディアプラス）です。9年間で2,500本以上の文章を書いてきました。
+            今は Claude・Gemini・ChatGPT とチームを組み、調べる・書く・確かめるを役割分担して仕事をしています。
+          </p>
+          <p class="hero-lead">
+            2026年からフロントエンド＋AI活用コースで、HTML・CSSから Next.js、Git、Docker までを学びました。
+            このページの制作物は、その課題でAIと一緒に作ったものです。
+          </p>
+          <p class="hero-actions">
+            <a class="button" href="#projects">制作物を見る</a>
+            <a class="button button-outline" href="#contact">お問い合わせ</a>
+          </p>
+        </div>
+        <figure class="hero-figure">
+          <img src="images/hero.svg" width="400" height="320" alt="ノートパソコンと原稿用紙、AIの吹き出しのイラスト">
+        </figure>
+      </div>
+    </section>
+
+    <!-- スキル -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title">スキル</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>書く・伝える</h3>
+            <ul>
+              <li>SEOライティング</li>
+              <li>AIO（AI検索に選ばれるための最適化）</li>
+              <li>記事の構成・校正</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>作る</h3>
+            <ul>
+              <li>HTML5・CSS3（セマンティック・レスポンシブ）</li>
+              <li>JavaScript・TypeScript</li>
+              <li>React・Next.js</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>届ける・支える</h3>
+            <ul>
+              <li>Git・GitHub</li>
+              <li>Docker・Vercel</li>
+              <li>AIとの協働（プロンプト設計・検証）</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 制作物 -->
+    <section id="projects" class="section section-alt" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="section-title">制作物</h2>
+        <p class="section-lead">フロントエンド＋AI活用コース（第5ヶ月）の課題です。すべてAIと協働して作りました。</p>
+
+        <div class="featured-grid">
+          <article class="project project-featured">
+            <picture>
+              <source type="image/webp" srcset="images/recipe-600.webp 600w, images/recipe-1200.webp 1200w" sizes="(min-width: 1024px) 560px, 100vw">
+              <img src="images/recipe-1200.webp" width="1200" height="750" loading="lazy" alt="みんなのレシピ帖のトップページ。検索欄、カテゴリー、人気のレシピのカードが並んでいる">
+            </picture>
+            <div class="project-body">
+              <p class="project-meta">第27・28章</p>
+              <h3>みんなのレシピ帖</h3>
+              <p>レシピを探して、評価して、投稿できるサイト。高度な検索、お気に入り、コメントと評価、投稿フォームまで作り、Vercel で公開しました。</p>
+              <ul class="tags" aria-label="使った技術">
+                <li>Next.js 16</li><li>TypeScript</li><li>Zustand</li><li>React Hook Form</li><li>Zod</li><li>Playwright</li>
+              </ul>
+              <p class="project-links">
+                <a href="https://recipe-share-rho.vercel.app" target="_blank" rel="noopener">公開サイト<span class="visually-hidden">（新しいタブで開く）</span></a>
+                <a href="https://github.com/harulove518919-boop/recipe-share" target="_blank" rel="noopener">GitHub<span class="visually-hidden">（新しいタブで開く）</span></a>
+              </p>
+            </div>
+          </article>
+
+          <article class="project project-featured">
+            <picture>
+              <source type="image/webp" srcset="images/todo-600.webp 600w, images/todo-1200.webp 1200w" sizes="(min-width: 1024px) 560px, 100vw">
+              <img src="images/todo-1200.webp" width="1200" height="750" loading="lazy" alt="やることメモの画面。入力欄と、チェックの付いた項目を含む3件のメモが並んでいる">
+            </picture>
+            <div class="project-body">
+              <p class="project-meta">第30章</p>
+              <h3>やることメモ（Docker化）</h3>
+              <p>HTML・CSS・JavaScript のメモアプリを、Nginx の Docker イメージに入れて動かしました。Docker Compose でも起動できます。</p>
+              <ul class="tags" aria-label="使った技術">
+                <li>Docker</li><li>Docker Compose</li><li>Nginx</li><li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <ul class="project-list">
+          <li class="project">
+            <p class="project-meta">第29章</p>
+            <h3>Git練習ページ</h3>
+            <p>ブランチを切り、プルリクエストを作ってマージするまでの流れを実践しました。</p>
+            <p class="project-links">
+              <a href="https://github.com/harulove518919-boop/git-practice" target="_blank" rel="noopener">GitHub<span class="visually-hidden">（新しいタブで開く）</span></a>
+            </p>
+          </li>
+          <li class="project">
+            <p class="project-meta">第26章</p>
+            <h3>書籍管理アプリ</h3>
+            <p>本の一覧・検索・追加・編集・削除と、読書ステータス・評価・メモの管理。</p>
+            <ul class="tags" aria-label="使った技術"><li>React Hook Form</li><li>Zod</li></ul>
+          </li>
+          <li class="project">
+            <p class="project-meta">第25章</p>
+            <h3>タスク管理ボード</h3>
+            <p>TODO・進行中・完了の3列を、ドラッグ＆ドロップで動かせるボード。</p>
+            <ul class="tags" aria-label="使った技術"><li>@dnd-kit</li><li>Vitest</li></ul>
+          </li>
+          <li class="project">
+            <p class="project-meta">第24章</p>
+            <h3>商品カート</h3>
+            <p>カートへの追加・数量の増減・削除。4段階のプロンプトで改善しました。</p>
+            <ul class="tags" aria-label="使った技術"><li>Next.js</li><li>Vitest</li></ul>
+          </li>
+          <li class="project">
+            <p class="project-meta">第23章</p>
+            <h3>天気予報ウィジェット</h3>
+            <p>大阪・東京・札幌・那覇の今の天気と、3日間の予報を表示します。</p>
+            <ul class="tags" aria-label="使った技術"><li>Open-Meteo API</li><li>Next.js</li></ul>
+          </li>
+          <li class="project">
+            <p class="project-meta">第23章</p>
+            <h3>noteマガジン記事一覧</h3>
+            <p>note のRSSを読み込み、記事のタイトル・公開日・概要を一覧にします。</p>
+            <ul class="tags" aria-label="使った技術"><li>RSS</li><li>Next.js</li></ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container container-narrow">
+        <h2 id="contact-title" class="section-title">お問い合わせ</h2>
+        <p class="section-lead">記事の執筆、サイト改修のご相談など、お気軽にどうぞ。</p>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="field">
+            <label for="name">お名前<span class="required">（必須）</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+            <p id="name-error" class="error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="email">メールアドレス<span class="required">（必須）</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="email-error">
+            <p id="email-error" class="error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="topic">ご相談の内容</label>
+            <select id="topic" name="topic">
+              <option value="writing">記事の執筆</option>
+              <option value="site">サイト改修</option>
+              <option value="seo">SEO・AIOのご相談</option>
+              <option value="other">その他</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">メッセージ<span class="required">（必須）</span></label>
+            <textarea id="message" name="message" rows="6" maxlength="1000" required aria-describedby="message-hint message-error"></textarea>
+            <p id="message-hint" class="hint"><output id="message-count" for="message">0</output> / 1000文字</p>
+            <p id="message-error" class="error" hidden></p>
+          </div>
+          <button class="button" type="submit">送信する</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          <p class="note">※ このフォームは課題用の見本です。送信しても、メッセージはどこにも届きません。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>プライムメディアプラス　山口泰山</p>
+      <p><small>&copy; <time datetime="2026">2026</time> Prime Media Plus</small></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

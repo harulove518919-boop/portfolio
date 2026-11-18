@@ -1,0 +1,10 @@
+# OSが勝手に作るファイル
+.DS_Store
+Thumbs.db
+
+# 秘密の情報
+.env
+.env.local
+
+# ログ
+*.log
